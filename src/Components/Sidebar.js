@@ -7,6 +7,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import BookmarkBorderIcon from "@material-ui/icons/BookmarkBorder";
+import ListAltIcon from "@material-ui/icons/ListAlt";
 import PersonIcon from "@material-ui/icons/Person";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import AddIcon from "@material-ui/icons/Add";
@@ -20,6 +21,7 @@ function Sidebar() {
       <SidebarOption text="Notifications" Icon={NotificationsIcon} />
       <SidebarOption text="Message" Icon={MailOutlineIcon} />
       <SidebarOption text="Bookmarks" Icon={BookmarkBorderIcon} />
+      <SidebarOption text="Lists" Icon={ListAltIcon} />
       <SidebarOption text="Profile" Icon={PersonIcon} />
       <SidebarOption text="More" Icon={MoreHorizIcon} />
       <SidebarOption text="Tweet" Icon={AddIcon} />
