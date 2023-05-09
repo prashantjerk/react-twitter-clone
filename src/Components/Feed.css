@@ -1,0 +1,12 @@
+.feed {
+  flex: 0.4;
+}
+
+.feed_header > h2 {
+  width: 600px;
+  height: 55px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  align-items: center;
+}
