@@ -22,9 +22,6 @@ function TweetBox() {
       </div>
       {/* icons */}
       <TweetBoxIcon IconComponent={PhotoIcon} />
-      <TweetBoxIcon />
-      <TweetBoxIcon />
-      <TweetBoxIcon />
     </div>
   );
 }
