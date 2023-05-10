@@ -1,0 +1,16 @@
+.avatar_input {
+  display: flex;
+  align-items: center;
+  border: 1px red solid;
+}
+.avatar {
+  margin: 10px;
+}
+
+.input_tweet {
+  font-size: 20px;
+  border: none;
+}
+.input_tweet:focus {
+  outline: none;
+}
