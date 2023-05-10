@@ -1,5 +1,7 @@
 .feed {
   flex: 0.4;
+  /* border-right: 1px solid var(--twitter-background); */
+  border-right: 1px solid var(--twitter-color);
 }
 
 .feed_header > h2 {
@@ -9,4 +11,9 @@
   padding-right: 16px;
   display: flex;
   align-items: center;
+}
+
+.feed_preference {
+  display: flex;
+  align-self: center;
 }

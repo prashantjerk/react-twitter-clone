@@ -1,0 +1,19 @@
+.each_preference_option > .MuiButton-text {
+  width: 100% !important;
+  height: 55px !important;
+  font-weight: 800 !important;
+  text-transform: inherit !important;
+  border-radius: 0 !important;
+}
+
+.each_preference_option > .MuiButton-text:hover {
+  background-color: #f1f1f1 !important;
+}
+
+.each_preference_option {
+  width: 50%;
+}
+
+.preferred_chosen{
+  border-bottom: 3px solid var(--twitter-color);
+}

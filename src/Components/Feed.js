@@ -1,5 +1,6 @@
 import React from "react";
 import "./Feed.css";
+import FeedPreference from "./FeedPreference";
 
 function Feed() {
   return (
@@ -9,8 +10,13 @@ function Feed() {
         <h2>Home</h2>
       </div>
 
-      {/* TweetBox  */}
+      {/* For You and Following */}
+      <div className="feed_preference">
+        <FeedPreference text="For you" selected />
+        <FeedPreference text="Following" />
+      </div>
 
+      {/* TweetBox  */}
       {/* Post  */}
       {/* Post  */}
       {/* Post  */}
