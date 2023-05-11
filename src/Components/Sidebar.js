@@ -1,16 +1,16 @@
 import React from "react";
 import "./Sidebar.css";
 import SidebarOption from "./SidebarOption";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import HomeIcon from "@material-ui/icons/Home";
-import SearchIcon from "@material-ui/icons/Search";
-import NotificationsIcon from "@material-ui/icons/Notifications";
-import MailOutlineIcon from "@material-ui/icons/MailOutline";
-import BookmarkBorderIcon from "@material-ui/icons/BookmarkBorder";
-import ListAltIcon from "@material-ui/icons/ListAlt";
-import PersonIcon from "@material-ui/icons/Person";
-import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
-import AddIcon from "@material-ui/icons/Add";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import HomeIcon from "@mui/icons-material/Home";
+import SearchIcon from "@mui/icons-material/Search";
+import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
+import ListAltIcon from "@mui/icons-material/ListAlt";
+import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
+import MoreHorizOutlinedIcon from "@mui/icons-material/MoreHorizOutlined";
+import AddIcon from "@mui/icons-material/Add";
 import Button from "@material-ui/core/Button";
 
 function Sidebar() {
@@ -19,12 +19,12 @@ function Sidebar() {
       <TwitterIcon className="twitter_icon" />
       <SidebarOption active text="Home" Icon={HomeIcon} />
       <SidebarOption text="Explore" Icon={SearchIcon} />
-      <SidebarOption text="Notifications" Icon={NotificationsIcon} />
+      <SidebarOption text="Notifications" Icon={NotificationsNoneIcon} />
       <SidebarOption text="Message" Icon={MailOutlineIcon} />
       <SidebarOption text="Bookmarks" Icon={BookmarkBorderIcon} />
       <SidebarOption text="Lists" Icon={ListAltIcon} />
-      <SidebarOption text="Profile" Icon={PersonIcon} />
-      <SidebarOption text="More" Icon={MoreHorizIcon} />
+      <SidebarOption text="Profile" Icon={PersonOutlineOutlinedIcon} />
+      <SidebarOption text="More" Icon={MoreHorizOutlinedIcon} />
       <SidebarOption text="Tweet" Icon={AddIcon} />
 
       {/* Button -> Tweet  */}
