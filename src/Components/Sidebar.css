@@ -9,7 +9,7 @@
   padding: 15px;
   color: var(--twitter-color);
 }
-.sidebar__tweet {
+.sidebar > .sidebar__tweet {
   box-sizing: border-box !important;
   background-color: var(--twitter-color) !important;
   text-transform: inherit !important;

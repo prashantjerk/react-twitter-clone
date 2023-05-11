@@ -1,15 +1,65 @@
+.tweetBox {
+  border-bottom: 0.25px #ebe6e6 solid;
+}
+
 .avatar_input {
   display: flex;
   align-items: center;
+  height: 65px;
 }
 .avatar {
   margin: 10px;
 }
 
 .input_tweet {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: rgb(44, 43, 43);
   font-size: 20px;
+  width: 542px;
+  height: auto;
+  text-overflow: none;
+  resize: none;
   border: none;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 }
+.input_tweet::-webkit-scrollbar {
+  display: none;
+}
+
 .input_tweet:focus {
   outline: none;
+}
+.tweetbox_foot_icons {
+  display: flex;
+  gap: 5px;
+}
+.tweetbox_foot {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 20px !important;
+}
+
+.tweetBox .MuiSvgIcon-root {
+  height: 20px !important;
+}
+.tweetbox_foot > .tweetBox__tweet {
+  box-sizing: border-box !important;
+  background-color: var(--twitter-color) !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  color: white !important;
+  font-weight: 900 !important ;
+  box-shadow: none !important;
+  text-align: center !important;
+  text-shadow: none !important;
+  width: 70px !important;
+  height: 35px !important;
+  /* margin-right: 20px !important; */
 }

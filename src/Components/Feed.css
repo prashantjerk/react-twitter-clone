@@ -16,4 +16,5 @@
 .feed_preference {
   display: flex;
   align-self: center;
+  border-bottom: 0.25px #ebe6e6 solid;
 }
