@@ -2,6 +2,8 @@ import React from "react";
 import "./Feed.css";
 import FeedPreference from "./FeedPreference";
 import TweetBox from "./TweetBox";
+import Post from "./Post";
+import VerifiedIcon from "@mui/icons-material/Verified";
 function Feed() {
   return (
     <div className="feed">
@@ -20,12 +22,30 @@ function Feed() {
       <TweetBox />
 
       {/* Post  */}
-      {/* Post  */}
-      {/* Post  */}
-      {/* Post  */}
-      {/* Post  */}
-      {/* Post  */}
-      {/* Post  */}
+      <Post
+        avatar_URL="https://avatars.githubusercontent.com/u/108537435?v=4"
+        Name="Prashant Karki"
+        Verified_badge={VerifiedIcon}
+        twitter_handle="@prashantjerk"
+        post_caption="Never gonna give you up!!"
+        post_graphics="https://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif"
+      />
+      <Post
+        avatar_URL="https://avatars.githubusercontent.com/u/108537435?v=4"
+        Name="Prashant Karki"
+        Verified_badge={VerifiedIcon}
+        twitter_handle="@prashantjerk"
+        post_caption="Never gonna give you up!!"
+        post_graphics="https://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif"
+      />
+      <Post
+        avatar_URL="https://avatars.githubusercontent.com/u/108537435?v=4"
+        Name="Prashant Karki"
+        Verified_badge={VerifiedIcon}
+        twitter_handle="@prashantjerk"
+        post_caption="Never gonna give you up!!"
+        post_graphics="https://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif"
+      />
     </div>
   );
 }

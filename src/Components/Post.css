@@ -1,0 +1,49 @@
+.post_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--twitter-background);
+}
+.post_header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 45px;
+}
+
+.post_header > h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(45, 44, 44);
+}
+
+.post_header > .MuiSvgIcon-root {
+  height: 16px !important ;
+  color: var(--twitter-color) !important;
+}
+
+.post_header > span {
+  color: grey;
+  font-size: 12px;
+}
+
+.actual_post {
+  width: 400px;
+  margin-left: 55px;
+  margin-top: -10px;
+}
+
+.post_caption {
+  line-height: 20px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.post_graphics {
+  object-fit: cover;
+  width: 98%;
+  display: block;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}

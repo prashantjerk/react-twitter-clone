@@ -1,4 +1,5 @@
 .tweetBoxIcon {
   color: var(--twitter-color);
+  user-select: none;
+  cursor: pointer;
 }
-

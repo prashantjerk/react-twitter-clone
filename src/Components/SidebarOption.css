@@ -5,6 +5,7 @@
   cursor: pointer;
   transition: all 100ms ease-out;
   width: 300px;
+  user-select: none;
 }
 
 .SidebarOption:hover {
@@ -23,6 +24,6 @@
   margin-left: 20px;
 }
 
-.SidebarOption--active{
-    color: var(--twitter-color);
+.SidebarOption--active {
+  color: var(--twitter-color);
 }

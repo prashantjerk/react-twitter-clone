@@ -1,13 +1,20 @@
 .sidebar {
   border-right: 1px solid var(--twitter-background);
-  /* border-right: 1px solid red; */
   flex: 0.3;
-  height: 100vh;
-  /* min-width: 250px; */
+  min-width: 50px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.sidebar ::-webkit-scrollbar {
+  height: 0;
+  width: 0;
 }
 .twitter_icon {
   padding: 15px;
   color: var(--twitter-color);
+  cursor: pointer;
 }
 .sidebar > .sidebar__tweet {
   box-sizing: border-box !important;
