@@ -1,15 +1,26 @@
 .post_container {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   margin-bottom: 10px;
   border-bottom: 1px solid var(--twitter-background);
+  transition: all 0.25s ease-out;
+}
+
+.post_container:hover {
+  background-color: rgb(239, 239, 239);
+}
+
+.post_body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px;
+  margin-bottom: 10px;
+  width: 100%;
 }
 .post_header {
+  height: 45px;
   display: flex;
   align-items: center;
-  width: 100%;
-  height: 45px;
 }
 
 .post_header > h3 {
@@ -28,22 +39,29 @@
   font-size: 12px;
 }
 
-.actual_post {
-  width: 400px;
-  margin-left: 55px;
-  margin-top: -10px;
-}
 
 .post_caption {
   line-height: 20px;
   margin-bottom: 5px;
   margin-right: 5px;
+  margin-top: -10px;
+  font-size: 15px;
+  font-weight: 390;
 }
 
 .post_graphics {
   object-fit: cover;
-  width: 98%;
-  display: block;
+  width: 100%;
   border-radius: 15px;
-  margin-bottom: 10px;
+}
+
+.post_body > .post_footer_icons {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  margin-top: 5px;
+}
+
+.post_footer_icons > .MuiSvgIcon-root {
+  height: 18px !important ;
 }
