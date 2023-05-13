@@ -6,6 +6,7 @@ import ReplyAllOutlinedIcon from "@mui/icons-material/ReplyAllOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import InsightsIcon from "@mui/icons-material/Insights";
 import IosShareOutlinedIcon from "@mui/icons-material/IosShareOutlined";
+import MoreHorizOutlinedIcon from "@mui/icons-material/MoreHorizOutlined";
 
 function Post({
   avatar_URL,
@@ -26,9 +27,14 @@ function Post({
         />
         <div className="post_body">
           <div className="post_header">
-            <h3>{Name}</h3>
-            <Verified_badge />
-            <span>{twitter_handle}</span>
+            <div className="post_header_left">
+              <h3>{Name}</h3>
+              <Verified_badge />
+              <span>{twitter_handle}</span>
+            </div>
+            <div className="post_header_threedots">
+              <MoreHorizOutlinedIcon />
+            </div>
           </div>
           <div className="actual_post">
             <p className="post_caption">{post_caption}</p>

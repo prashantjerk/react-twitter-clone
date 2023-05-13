@@ -18,27 +18,36 @@
   width: 100%;
 }
 .post_header {
+  width: 98%;
   height: 45px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.post_header > h3 {
+.post_header_left {
+  display: flex;
+}
+.post_header_left > h3 {
   font-size: 14px;
   font-weight: 500;
   color: rgb(45, 44, 44);
 }
 
-.post_header > .MuiSvgIcon-root {
+.post_header_left > .MuiSvgIcon-root {
   height: 16px !important ;
   color: var(--twitter-color) !important;
 }
 
-.post_header > span {
+.post_header_left > span {
   color: grey;
   font-size: 12px;
 }
 
+.post_header_threedots > .MuiSvgIcon-root {
+  height: 18px !important ;
+  color: grey !important;
+}
 
 .post_caption {
   line-height: 20px;
@@ -59,7 +68,7 @@
   display: flex;
   justify-content: space-between;
   width: 98%;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .post_footer_icons > .MuiSvgIcon-root {
