@@ -28,7 +28,9 @@ function Post({
         <div className="post_body">
           <div className="post_header">
             <div className="post_header_left">
-              <h3>{Name}</h3>
+              <a href="https://twitter.com/prashantjerk">
+                {Name}
+              </a>
               <Verified_badge />
               <span>{twitter_handle}</span>
             </div>

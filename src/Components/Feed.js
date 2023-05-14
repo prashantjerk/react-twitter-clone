@@ -27,7 +27,7 @@ function Feed() {
       {/* Post  */}
       <Post
         avatar_URL="https://avatars.githubusercontent.com/u/108537435?v=4"
-        Name="Prashant Karki"
+        Name="shut up, todd! - Bojack"
         Verified_badge={VerifiedIcon}
         twitter_handle="@prashantjerk"
         post_caption="OOps!!"
@@ -35,7 +35,7 @@ function Feed() {
       />
       <Post
         avatar_URL="https://avatars.githubusercontent.com/u/108537435?v=4"
-        Name="Prashant Karki"
+        Name="shut up, todd! - Bojack"
         Verified_badge={VerifiedIcon}
         twitter_handle="@prashantjerk"
         post_caption="Never gonna give you up!!"
@@ -43,7 +43,7 @@ function Feed() {
       />
       <Post
         avatar_URL="https://avatars.githubusercontent.com/u/108537435?v=4"
-        Name="Prashant Karki"
+        Name="shut up, todd! - Bojack"
         Verified_badge={VerifiedIcon}
         twitter_handle="@prashantjerk"
         post_caption="that's what she said"
@@ -51,7 +51,7 @@ function Feed() {
       />
       <Post
         avatar_URL="https://avatars.githubusercontent.com/u/108537435?v=4"
-        Name="Prashant Karki"
+        Name="shut up, todd! - Bojack"
         Verified_badge={VerifiedIcon}
         twitter_handle="@prashantjerk"
         post_caption=""

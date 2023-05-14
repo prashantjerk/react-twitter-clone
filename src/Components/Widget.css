@@ -1,3 +1,37 @@
-.widget{
-    flex: 0.3;
+.widget {
+  flex: 0.25;
+  margin-left: 20px;
+  width: 350px;
 }
+
+.widget > .search {
+  display: flex;
+  background-color: rgba(230, 236, 240, 0.8);
+  backdrop-filter: blur(20px);
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 15px;
+  height: 45px;
+  border-radius: 25px;
+  width: 340px;
+}
+
+.search > .MuiSvgIcon-root {
+  height: 36px !important;
+  color: var(--twitter-color) !important;
+}
+
+.search > .search_field {
+  outline: none;
+  border: none;
+  background-color: rgba(230, 236, 240, 0.8);
+  backdrop-filter: blur(20px);
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+
+@media (max-width: 990px) {
+    .widget{
+        display: none;
+    }
+  }

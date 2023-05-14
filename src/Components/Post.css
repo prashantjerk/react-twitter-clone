@@ -28,10 +28,11 @@
 .post_header_left {
   display: flex;
 }
-.post_header_left > h3 {
-  font-size: 14px;
-  font-weight: 500;
+.post_header_left > a {
+  text-decoration: none;
   color: rgb(45, 44, 44);
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .post_header_left > .MuiSvgIcon-root {

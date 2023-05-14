@@ -4,7 +4,8 @@
   align-items: center;
   cursor: pointer;
   transition: all 100ms ease-out;
-  width: 300px;
+  width: fit-content;
+  padding-right: 20px;
   user-select: none;
 }
 
