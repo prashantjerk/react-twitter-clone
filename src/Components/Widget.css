@@ -1,19 +1,35 @@
 .widget {
-  flex: 0.25;
-  margin-left: 20px;
-  width: 350px;
+  flex: 0.3;
+  margin-left: 15px;
+  display: block;
+  overflow-x: none;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  max-width: 340px;
+  min-width: 340px;
+}
+
+.widget ::-webkit-scrollbar {
+  height: 0;
+  width: 0;
 }
 
 .widget > .search {
+  box-sizing: border-box;
   display: flex;
   background-color: rgba(230, 236, 240, 0.8);
   backdrop-filter: blur(20px);
   align-items: center;
   margin-top: 10px;
   padding-left: 15px;
+  margin-right: 5px;
   height: 45px;
   border-radius: 25px;
-  width: 340px;
+  width: 100%;
+}
+.widget > .css-1dbjc4n {
+  width: 100%;
 }
 
 .search > .MuiSvgIcon-root {
@@ -31,7 +47,14 @@
 }
 
 @media (max-width: 990px) {
-    .widget{
-        display: none;
-    }
+  .widget {
+    display: none;
   }
+
+  .sidebar{
+    flex: 0.2;
+  }
+  .feed {
+    flex: 0.8;
+  }
+}
